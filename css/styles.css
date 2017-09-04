@@ -1,0 +1,11 @@
+#bg {
+    background: url(../img/Tree_Little_Italy.png);
+    background-repeat: no-repeat;
+    transform: scale(1.0);
+    position: fixed;
+    background-size: cover;
+
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}

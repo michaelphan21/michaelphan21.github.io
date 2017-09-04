@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<!-- //////////////////////////////START HEAD/////////////////////////// -->
+
+<head>
+	<title> Michael Phan </title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+	<!--
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-mocks.js"></script> 
+	-->
+</head>
+<!-- //////////////////////////////END HEAD///////////////////////////// -->
+
+<!-- //////////////////////////////START BODY////////////////////////////////// -->
+	<!-- Body; where the content will change with AngularJS SPA methods -->
+	<!-- Partials will also be created here and filled in accordingly -->
+<body ng-app="myApp" background="../img/Tree_Little_Italy.png">
+
+<div class = "main" ng-controller="myController">
+	<p> Hello, you must be {{ user.name }} </p>
+    <h3> Your age must be  {{ user.age | currency }} </h3>
+</div>
+
+<div id="bg">
+	::before
+	::after
+</div>
+
+</body>
+<!-- ///////////////////////////////END BODY/////////////////////////////////// -->
+
+<!-- //////////////////////////////START SCRIPT////////////////////////////////// -->
+<!-- Modules -->
+<script src="app/js/main.js"></script>	
+
+<script src="app/appmodule.js"> </script>
+
+<!-- Controllers -->
+<script src="app/controllers/appcontroller.js"></script>
+
+<!-- Services -->
+
+<!-- Libraries -->
+
+
+
+<!-- //////////////////////////////END SCRIPT////////////////////////////////// -->
+
+
+</html>
