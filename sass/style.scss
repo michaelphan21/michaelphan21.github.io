@@ -1,0 +1,60 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #F0F0E0;
+}
+
+#parallax {
+	background-image: url("../img/Tree_little_Italy.png");
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+} 
+
+#overlay {
+    display: block;
+    height: 1000px;
+	background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+	h1 {
+		position: relative;
+		display: none;
+	    top: 20%;
+	    margin-left: auto;
+	    margin-right: 30%;
+	    z-index: 10;
+	    text-align: center;
+	    color: white;
+	    font-size: 80px;
+	    text-shadow: 0 0 15px rgba(0,0,0,1);
+	    font-family: Georgia;
+	}
+}
+
+.navbar {
+	font-family: Georgia;
+	z-index:99;
+}
+
+$marg:32%;
+#about, #experience, #contact {
+	padding: 50px;
+	height: 1000px;
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		color: gray;
+		font-family: Georgia;
+
+	}
+}
+
+
+
+

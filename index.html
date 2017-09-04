@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<!-- //////////////////////////////START HEAD/////////////////////////// -->
+<!-- START HEAD/////////////////////////// -->
 
 <head>
 	<title> Michael Phan </title>
@@ -8,39 +8,71 @@
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/style.css">
 
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	
+
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
-<!-- //////////////////////////////END HEAD///////////////////////////// -->
+<!-- END HEAD///////////////////////////// -->
 
-<!-- //////////////////////////////START BODY////////////////////////////////// -->
-	<!-- Body; where the content will change with AngularJS SPA methods -->
-	<!-- Partials will also be created here and filled in accordingly -->
+<!-- START BODY////////////////////////////////// -->
 <body>
 
-<div class="parallax">
-</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Michael Phan</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li><a href="#about">About</a></li>
+	      <li><a href="#experience">Experience</a></li>
+	      <li><a href="#contact">Contact</a></li>
+	    </ul>
+	  </div>
+	</nav>
 
-<div class="testing">
-<p> This is a test! </p>
-</div>
+	<div id="parallax"> 
+		<div id="overlay">
+	 		<h1> Hi there! Welcome to my portfolio. </h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div id="about">
+				<h1> ABOUT ME</h1>
+				<hr>
+				<div class="indiv four cols first">
+					<div id="profilePicture">
+						<img src="img/Michael_Phan.jpg" height="300" width="300">
+					</div>
+				</div>
+				<div class="indiv twelve cols last">
+					<p> Let's learn a little about myself </p>
+				</div>
+			</div>
+			<div id="experience">
+				<h1> EXPERIENCE</h1>
+				<hr>
+				<p>Experience</p>
+			</div>
+			<div id="contact">
+				<h1> CONTACT </h1>
+				<hr>
+			</div>
+		</div> <!-- row -->
+	</div> <!-- container -->
 
 
 </body>
-<!-- ///////////////////////////////END BODY/////////////////////////////////// -->
+<!-- END BODY/////////////////////////////////// -->
 
-<!-- //////////////////////////////START SCRIPT////////////////////////////////// -->
-
+<!-- START SCRIPT////////////////////////////////// -->
 <!-- Custom Sripts -->
-<script src="app/js/main.js"></script>	
+<script src="js/main.js"></script>	
 
-<!-- //////////////////////////////END SCRIPT////////////////////////////////// -->
-
-
+<!-- END SCRIPT////////////////////////////////// -->
 </html>
