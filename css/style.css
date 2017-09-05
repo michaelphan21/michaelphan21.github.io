@@ -7,7 +7,7 @@ html, body {
 body {
   background-color: #F0F0E0; }
 
-#parallax {
+#parallax_start {
   background-image: url("../img/Tree_little_Italy.png");
   min-height: 100%;
   background-repeat: no-repeat;
@@ -23,13 +23,13 @@ body {
   #overlay h1 {
     position: relative;
     display: none;
-    top: 20%;
+    top: 18%;
     margin-left: auto;
     margin-right: 30%;
     z-index: 10;
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     text-shadow: 0 0 15px black;
     font-family: Georgia; }
 
@@ -44,6 +44,36 @@ body {
     text-align: center;
     font-size: 50px;
     color: gray;
+    font-family: Georgia; }
+
+#about .summary p {
+  font-family: Georgia;
+  font-size: 16px; }
+
+#parallax_end {
+  background-image: url("../img/water_fountain_2.jpg");
+  min-height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#overlay_2 {
+  display: block;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black background with opacity */ }
+  #overlay_2 h1 {
+    position: relative;
+    display: none;
+    top: 35%;
+    margin-left: 60%;
+    margin-right: 5%;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 0 15px black;
     font-family: Georgia; }
 
 /*# sourceMappingURL=style.css.map */
