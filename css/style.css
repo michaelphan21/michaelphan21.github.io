@@ -65,13 +65,19 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     font-size: 50px; } }
+
 #about, #experience, #contact {
-  padding: 10px; }
+  padding: 5%; }
   #about h1, #experience h1, #contact h1 {
     text-align: center;
     font-size: 50px;
     color: gray;
     font-family: Georgia; }
+
+@media screen and (max-width: 420px) {
+  #about, #experience, #contact { 
+    padding: 10%}
+}
 
 #about .summary p {
   font-family: Georgia;
@@ -89,5 +95,6 @@ html, body {
 
 .right {
   float: right; }
+
 
 /*# sourceMappingURL=style.css.map */
