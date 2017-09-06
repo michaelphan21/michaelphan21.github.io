@@ -45,7 +45,6 @@ body {
 $marg:32%;
 #about, #experience, #contact {
 	padding: 50px;
-	height: 1000px;
 	h1 {
 		text-align: center;
 		font-size: 50px;
@@ -92,5 +91,19 @@ $marg:32%;
 	}
 }
 
+.fading_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#A9A9A9), to(#fff));
+}
 
+.align_left_right {
+	text-align:left;
+}
+
+.right {
+	float:right;
+}
 

@@ -38,8 +38,7 @@ body {
   z-index: 99; }
 
 #about, #experience, #contact {
-  padding: 50px;
-  height: 1000px; }
+  padding: 50px; }
   #about h1, #experience h1, #contact h1 {
     text-align: center;
     font-size: 50px;
@@ -75,5 +74,18 @@ body {
     font-size: 70px;
     text-shadow: 0 0 15px black;
     font-family: Georgia; }
+
+.fading_line {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#A9A9A9), to(#fff)); }
+
+.align_left_right {
+  text-align: left; }
+
+.right {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */
