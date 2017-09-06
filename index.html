@@ -12,15 +12,17 @@
 
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	
-
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	
 </head>
 <!-- END HEAD///////////////////////////// -->
 
 <!-- START BODY////////////////////////////////// -->
 <body>
 
+
+	<!-- start navigation bar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	   	<div class="container">
 	        <div class="navbar-header">
@@ -30,28 +32,26 @@
 	                <span class="icon-bar"></span>
 	                <span class="icon-bar"></span>
 	            </button>
+	            <a class="navbar-brand" href="#">Michael Phan</a>
 	        </div>
 
 	        <!-- Collect the nav links, forms, and other content for toggling -->
 	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	            <ul class="nav navbar-nav">
-	                <li><a href="index.php">Home</a></li>
-	                <li><a href="about.php">About</a></li>
-	                <li><a href="#portfolio">Portfolio</a></li>
-	                <li><a href="#">Blog</a></li>
-	                <li><a href="contact.php">Contact</a></li>
+	                <li><a href="#about">About</a></li>
+	                <li><a href="#experience">Experience</a></li>
+	                <li><a href="#contact">Contact</a></li>
 	            </ul>
 	        </div>
 	    </div>
 	</nav>
+	<!-- end navigation bar -->
 
-
-
-	<div id="parallax_start"> 
+	<section id="parallax_start"> 
 		<div id="overlay">
-	 		<h1> Hi there! Welcome to my portfolio. </h1>
+	 		<h1 id="welcome"> Welcome to my portfolio. </h1>
 		</div>
-	</div>
+	</section>
 
 	<div class="container">
 		<div class="row">
@@ -96,7 +96,7 @@
 					<li>what i did</li>
 					<li>what i did</li>
 				</ul>
-<hr>
+				<hr>
 				<p class="align_left_right">High Tech High Media Arts
 					<span class="right">April 2015 - June 2015</span>
 				</p>
@@ -159,11 +159,11 @@
 		</div> <!-- row -->
 	</div> <!-- container -->
 
-	<div id="parallax_end">
+	<section id="parallax_end">
 		<div id="overlay_2">
-			<h1> "Pleasure in the job puts perfection in the work." -Aristotle </h1>
+			<h1 id="end"> "Pleasure in the job puts perfection in the work." -Aristotle </h1>
 		</div>
-	</div>
+	</section>
 
 </body>
 <!-- END BODY/////////////////////////////////// -->
