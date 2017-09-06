@@ -34,8 +34,7 @@ body {
     font-family: Georgia; }
 
 .navbar {
-  font-family: Georgia;
-  z-index: 99; }
+  font-family: Georgia; }
 
 #about, #experience, #contact {
   padding: 50px; }
