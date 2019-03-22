@@ -9,7 +9,6 @@ $(document).ready(function(){
 		$(".navbar-collapse").collapse('hide');
 	});    
 	
-	//scrolling animation
 	$("a").on('click', function() {
 		$("HTML, BODY").animate({ scrollTop: $($(this).attr("href")).offset().top}, 800); 
 	}); 

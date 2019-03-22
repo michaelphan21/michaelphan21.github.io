@@ -5,11 +5,9 @@ html, body {
 
 #firstname {
 	color: gray;
-	font-size: 20px;
 }
 #lastname {
 	color: #c11515;
-	font-size: 20px;
 	
 }
 
