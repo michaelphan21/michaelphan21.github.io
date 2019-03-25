@@ -5,6 +5,7 @@ html, body {
 
 #firstname {
 	color: gray;
+<<<<<<< HEAD
 	font-size: 20px;
 }
 
@@ -14,6 +15,15 @@ html, body {
 }
 
 #home {
+=======
+}
+#lastname {
+	color: #c11515;
+	
+}
+
+#parallax_start {
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -22,7 +32,11 @@ html, body {
   background-attachment: fixed;
   background-image: url("../img/Tree.jpg"); }
 
+<<<<<<< HEAD
 #endPage {
+=======
+#parallax_end {
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -44,7 +58,11 @@ html, body {
   color: white;
   font-size: 70px;
   text-shadow: 0 0 15px black;
+<<<<<<< HEAD
   font-family: Helvetica;
+=======
+  font-family: Georgia;
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
   top: 18%;
   margin-left: auto;
   margin-right: 30%; }
@@ -55,9 +73,13 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     font-size: 50px; } 
 }
 
+=======
+    font-size: 50px; } }
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
 #end {
   position: relative;
   display: none;
@@ -65,11 +87,18 @@ html, body {
   color: white;
   font-size: 70px;
   text-shadow: 0 0 15px black;
+<<<<<<< HEAD
   font-family: Helvetica;
   top: 35%;
   margin-left: 60%;
   margin-right: 5%; 
 }
+=======
+  font-family: Georgia;
+  top: 35%;
+  margin-left: 60%;
+  margin-right: 5%; }
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
 
 @media screen and (max-width: 420px) {
   #end {
@@ -77,6 +106,7 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     font-size: 50px; } 
 }
 
@@ -102,6 +132,25 @@ html, body {
 
 #about p {
   font-family: Helvetica;
+=======
+    font-size: 50px; } }
+
+#about, #experience, #contact {
+  padding: 5%; }
+  #about h1, #experience h1, #contact h1 {
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+    font-family: Georgia; }
+
+@media screen and (max-width: 420px) {
+  #about, #experience, #contact { 
+    padding: 10%}
+}
+
+#about .summary p {
+  font-family: Georgia;
+>>>>>>> c408952380852d1914c4dc36afef4d068ff35dd8
   font-size: 16px; }
 
 .fading_line {
