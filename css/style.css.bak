@@ -44,7 +44,7 @@ html, body {
   color: white;
   font-size: 70px;
   text-shadow: 0 0 15px black;
-  font-family: Georgia;
+  font-family: Helvetica;
   top: 18%;
   margin-left: auto;
   margin-right: 30%; }
@@ -65,7 +65,7 @@ html, body {
   color: white;
   font-size: 70px;
   text-shadow: 0 0 15px black;
-  font-family: Georgia;
+  font-family: Helvetica;
   top: 35%;
   margin-left: 60%;
   margin-right: 5%; 
@@ -92,7 +92,7 @@ html, body {
   text-align: center;
   font-size: 50px;
   color: gray;
-  font-family: Georgia; 
+  font-family: Helvetica; 
 }
 
 @media screen and (max-width: 420px) {
@@ -101,7 +101,7 @@ html, body {
 }
 
 #about p {
-  font-family: Georgia;
+  font-family: Helvetica;
   font-size: 16px; }
 
 .fading_line {
