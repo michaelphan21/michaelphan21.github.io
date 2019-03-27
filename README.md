@@ -8,6 +8,7 @@ TODO:
   Fix profile image and align text
   Fix contact image to align with information
 	  create contact sheet
+		add JS/JQUERY,AJAX,AND PHP
  Misc:
   Update Experience Section
   Update About me Section
