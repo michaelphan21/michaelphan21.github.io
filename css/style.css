@@ -1,100 +1,44 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: #F8F8F8; }
-
-#parallax_start {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url("../img/Tree.jpg"); }
-
-#parallax_end {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url("../img/water_fountain_2.jpg"); }
-
-#overlay {
-  display: none;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); }
-
-#welcome {
-  position: relative;
-  display: none;
-  text-align: center;
-  color: white;
-  font-size: 70px;
-  text-shadow: 0 0 15px black;
-  font-family: Georgia;
-  top: 18%;
-  margin-left: auto;
-  margin-right: 30%; }
-
-@media screen and (max-width: 420px) {
-  #welcome {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 50px; } }
-#end {
-  position: relative;
-  display: none;
-  text-align: center;
-  color: white;
-  font-size: 70px;
-  text-shadow: 0 0 15px black;
-  font-family: Georgia;
-  top: 35%;
-  margin-left: 60%;
-  margin-right: 5%; }
-
-@media screen and (max-width: 420px) {
-  #end {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 50px; } }
-
-#about, #experience, #contact {
-  padding: 5%; }
-  #about h1, #experience h1, #contact h1 {
-    text-align: center;
-    font-size: 50px;
-    color: gray;
-    font-family: Georgia; }
-
-@media screen and (max-width: 420px) {
-  #about, #experience, #contact { 
-    padding: 10%}
+  background-color: #FFFFFF;
 }
 
-#about .summary p {
-  font-family: Georgia;
-  font-size: 16px; }
+#canvas, .logo, .nb, .content, .page_divider {
+	border: 1px solid black;	
+	margin: 150px 200px 150px 200px;
+  text-align: center;	
+}
 
-.fading_line {
-  display: block;
-  border: none;
-  color: white;
-  height: 1px;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#A9A9A9), to(#F8F8F8)); }
+.logo, .nb, .content,.page_divider {
+	margin: 50px 200px 50px 200px;
+}
 
-.align_left_right {
-  text-align: left; }
+.page_divider {
+	height: 30px; 
+}
 
-.right {
-  float: right; }
+#header_list {
+	font-size: 40px; 
+	background-color: #FFFFFF; 
+	padding: 0 10px;
+}
+
+button {
+	background:none;
+	border:none;
+	outline-style:none;
+}
+
+a:hover, a:visited, a:link, a:active {
+	color: black;
+	text-decoration: none;
+} 
+
+.active {
+	color: maroon;	
+}
 
 
-/*# sourceMappingURL=style.css.map */
+
+

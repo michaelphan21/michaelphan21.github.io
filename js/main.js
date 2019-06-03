@@ -1,11 +1,19 @@
 $(document).ready(function(){
-
-	//fade in text in intro and end
-	$("#overlay, #welcome, .navbar, #end").each(function(i) {
-		$(this).delay(i).fadeIn(2000);
-	}); 	
 	
-	$(".navbar-nav li a").click(function(event) {
-		$(".navbar-collapse").collapse('hide');
+	$("body").css("display", "none");
+	$("body").fadeIn(2000);
+	
+	//jQuery AJAX load data from another web page.
+	$("button").click(function() {
+		$(".content").load(this.id+".html " + ".content");
+		
+		$("button.active").removeClass("active");
+		$(this).closest("button").addClass("active");
+		
+		$(".content").css("display", "none");		
+		$(".content").fadeIn(1000);
 	});
+	
+	
+	
 });
