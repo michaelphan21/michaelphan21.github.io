@@ -28,7 +28,6 @@
 				  <span id="header_list">
 				  	<button id="about">About</button>
 				  	<button id="experience">Experience</button>
-				  	<button id="resume">Resume</button>
 				  	<button id="contact">Contact</button>
 				  </span>
 				</div>

@@ -10,8 +10,7 @@ $(document).ready(function(){
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
-		$(".content").css("display", "none");		
-		$(".content").fadeIn(1000);
+		$(".content").fadeIn(2000);
 	});
 	
 	

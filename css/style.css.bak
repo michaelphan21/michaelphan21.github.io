@@ -4,14 +4,19 @@ html, body {
   background-color: #FFFFFF;
 }
 
-#canvas, .logo, .nb, .content, .page_divider {
+#canvas, .logo, .nb, .page_divider {
 	border: 1px solid black;	
 	margin: 150px 200px 150px 200px;
   text-align: center;	
 }
 
-.logo, .nb, .content,.page_divider {
+.logo, .nb, .content .page_divider {
 	margin: 50px 200px 50px 200px;
+}
+
+.content {
+	border: 1px solid black;	
+  text-align: center;	
 }
 
 .page_divider {
