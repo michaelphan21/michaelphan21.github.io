@@ -8,37 +8,42 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-		<!-- CSS Style Sheets & Icon -->
+		<!-- CSS Style Sheets & Icon -->		
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	 	
 	 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Custom CSS -->			 	
 	</head>
 
 	<body>
 		
 		<div id="canvas">
-			<div id="header">
-				
 				<div class="logo"> 
-					<h1 id="index"><a href="index.html">MICHAEL PHAN</a></h1>
+					<h1 id="index"><a href="index.html"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></a></h1>
 				</div>
 				
 				<!-- TODO: REPLACE "NAVIGATION_BAR" CLASS AND USE BOOTSTRAP NAVBAR TO MAKE MOBILE RESPONSIVE -->
 				<div class="page_divider">
 				  <span id="header_list">
-				  	<button id="about">About</button>
-				  	<button id="experience">Experience</button>
-				  	<button id="contact">Contact</button>
+				  	<button id="about">ABOUT</button>
+				  	<button id="experience">EXPERIENCE</button>
+				  	<button id="resume">RESUME</button>
+				  	<button id="contact">CONTACT</button>
 				  </span>
 				</div>
 				
+				<!-- SLIDESHOW -->
 				<div class="content">
-					<br><br><br>
-					<p> Welcome to my page.</p>
-				</div>
-		
-		<!-- END CANVAS TAG -->	
-		</div>
+					<div class="w3-content w3-display-container">
+					  <img class="mySlides" src="img/water_fountain.jpg">
+					  <img class="mySlides" src="img/water_fountain_2.jpg">
+					  <img class="mySlides" src="img/Tree_Little_Italy.jpg">
+					  <img class="mySlides" src="img/la.jpg">					  
+					</div>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>					
+				</div>		
+		</div> 	<!-- END CANVAS TAG -->	
 
 		<!-- JS Sripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

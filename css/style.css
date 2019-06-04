@@ -1,25 +1,34 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Aqua.ttf);
+}
+
+#canvas, .logo, .nb, .page_divider {
+	font-family: myFirstFont;
+}
+
 html, body {
   width: 100%;
   height: 100%;
   background-color: #FFFFFF;
 }
 
-#canvas, .logo, .nb, .content, .page_divider {
+#canvas {
 	border: 1px solid black;	
-	margin: 150px 200px 150px 200px;
-  text-align: center;	
 }
 
-.logo, .nb, .content,.page_divider {
+#canvas, .logo, .nb, .content, .page_divider {
 	margin: 50px 200px 50px 200px;
+  text-align: center;		
 }
 
 .page_divider {
-	height: 30px; 
+	border-bottom: 2px solid black;	
+	height: 15px; 
 }
 
 #header_list {
-	font-size: 40px; 
+	font-size: 25px; 
 	background-color: #FFFFFF; 
 	padding: 0 10px;
 }
@@ -30,15 +39,48 @@ button {
 	outline-style:none;
 }
 
-a:hover, a:visited, a:link, a:active {
-	color: black;
-	text-decoration: none;
-} 
-
 .active {
-	color: maroon;	
+	color: red;	
+}
+	
+.mySlides {
+	width:100%;
+	display:none;
+}	
+
+#index {
+	font-size: 60px;
+}
+#index a{
+  text-decoration:none;
+  color: inherit;	
 }
 
+#firstname {
+	color: black;
+}
 
+#lastname {
+	color: red;
+}
 
+#left_arrow button {
+	margin: 50px 0 0 400px;
+}
 
+#right_arrow button {
+	margin: 50px 400px 0 0;
+}
+.w3-button w3-black w3-display-right{
+	
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+#intro {
+	margin: 50px 200px 50px 200px;
+  text-align: center;		
+}

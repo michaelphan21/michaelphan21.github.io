@@ -1,0 +1,18 @@
+<div class="content">
+<!-- USE GOOGLE API FOR SENDING INQUIRIES -->
+<div class="row">
+	 <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">				  
+	 	<a href="https://www.linkedin.com/in/michaelphan21/">
+			<img src="img/linkedin.png" alt="linkedinC" class="img-responsive center-block" width="150" height="150">
+			<p>Linkedin: https://www.linkedin.com/in/michaelphan21</p>
+		</a>
+    <p>
+     <img src="img/gmail.png" alt="gmailC" class="img-responsive center-block" width="175" height="150">						    	
+    	Email: michaelphan21@gmail.com 
+    </p>
+    <p>
+      <img src="img/phone.png" alt="phoneC" class="img-repsponsive center-block" width="150" height="150">  	
+    	Phone: M: 619-940-9229
+    </p>
+	</div>
+</div>

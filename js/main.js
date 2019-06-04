@@ -5,7 +5,7 @@ $(document).ready(function(){
 	
 	//jQuery AJAX load data from another web page.
 	$("button").click(function() {
-		$(".content").load(this.id+".html " + ".content");
+		$(".content").load("partials/"+ this.id+".html " + ".content");
 		
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
@@ -14,6 +14,30 @@ $(document).ready(function(){
 		$(".content").fadeIn(1000);
 	});
 	
-	
-	
 });
+
+	//SLIDESHOW
+	
+  var slideIndex = 1;
+	showDivs(slideIndex);
+	
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if(n > x.length) {
+	  	 slideIndex = 1
+	 	} 
+	  if(n < 1) {
+	  	 slideIndex = x.length
+	  }
+	  for (i = 0; i < x.length; i++) {
+	    $(x[i]).css("display", "none");		    
+	  }
+	  $(x[slideIndex-1]).fadeIn(1000);	
+	  
+	        	  
+	}	
