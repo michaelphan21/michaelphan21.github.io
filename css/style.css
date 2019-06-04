@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(fonts/Aqua.ttf);
+  src: url(fonts/aqua.ttf);
 }
 
 #canvas, .logo, .nb, .page_divider {
