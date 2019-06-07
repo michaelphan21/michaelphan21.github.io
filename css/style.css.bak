@@ -1,10 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(fonts/Aqua.ttf);
-}
-
-#canvas, .logo, .nb, .page_divider {
-	font-family: myFirstFont;
+  src: url(fonts/aqua.ttf);
 }
 
 html, body {
@@ -13,17 +9,14 @@ html, body {
   background-color: #FFFFFF;
 }
 
-#canvas {
-	border: 1px solid black;	
-}
-
-#canvas, .logo, .nb, .content, .page_divider {
+#canvas, .logo, .nb, .page_divider {
+	font-family: myFirstFont;
 	margin: 50px 200px 50px 200px;
-  text-align: center;		
+  text-align: center;			
 }
 
 .page_divider {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid black;	
 	height: 15px; 
 }
 
@@ -42,16 +35,16 @@ button {
 .active {
 	color: red;	
 }
-	
+
 .mySlides {
 	width:100%;
 	display:none;
 }	
 
-#index {
+#fullname {
 	font-size: 60px;
 }
-#index a{
+#fullname a {
   text-decoration:none;
   color: inherit;	
 }
@@ -65,14 +58,15 @@ button {
 }
 
 #left_arrow button {
-	margin: 50px 0 0 400px;
+	margin: 0px 0 0 400px;
 }
 
 #right_arrow button {
-	margin: 50px 400px 0 0;
+	margin: 0px 400px 0 0;
 }
-.w3-button w3-black w3-display-right{
-	
+
+.content {
+	margin: 50px 125px 50px 125px;
 }
 
 p {
@@ -80,7 +74,7 @@ p {
 	font-size: 15px;
 }
 
-#intro {
-	margin: 50px 200px 50px 200px;
-  text-align: center;		
+.topic {
+	text-align: left;
+	font-family: normal;	
 }

@@ -1,23 +1,24 @@
 $(document).ready(function(){
 	
+  $(".content").load("partials/home.html " + ".content");
+  
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
 	
 	//jQuery AJAX load data from another web page.
 	$("button").click(function() {
 		$(".content").load("partials/"+ this.id+".html " + ".content");
-		
+	  	
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
 		$(".content").css("display", "none");		
 		$(".content").fadeIn(1000);
+		
 	});
-	
 });
 
 	//SLIDESHOW
-	
   var slideIndex = 1;
 	showDivs(slideIndex);
 	

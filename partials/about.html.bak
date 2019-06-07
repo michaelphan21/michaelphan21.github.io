@@ -1,14 +1,15 @@
 <div class="content">
-	<img src="img/Michael_Phan.jpg">
-	<br>
-	<p> 
-		It is not uncommon for one to experience an emotional crisis at
-		a relatively young age, especially when it does not feel like 
-		oneself can get past the magnitude of it all. I, myself, have 
-		fought past that and persevered, not only as computer science 
-		engineer, but as an individual. 
+
+	<img style="display:none" src="img/Michael_Phan.jpg">
+	<br><br>
+  <h1 class="topic">FUN FACTS ABOUT MYSELF</h1>	
+	<p style="text-align:left"> 
+		My favorite color is green. I used to compete in spicy food challenges.
+		I sprained my ankle at least five times playing basketball. I recently
+		started hiking, doing Yoga, and running 5k marathons.
 	</p>
-	<p>
+  <h1 class="topic">AS SOFTWARE DEVELOPER</h1>		
+	<p style="text-align:left">
 		One of my passions is to be able to help those who?ve gone through
 		a similar experience, where resources in the community were limited 
 		and the help was hardly found. I know that no single approach to 
@@ -20,7 +21,7 @@
 		or completely starting from scratch, as long as it is changing someone?s 
 		life around the world.
 	</p>
-	<p>
+	<p style="text-align:left">
 		My educational background includes graduating from the prestigious 
 		University of California, San Diego in 2016 with a bachelor?s degree 
 		in Computer Science and Engineering. Ever since, I?ve been working and 
@@ -28,7 +29,14 @@
 		colleagues and co-workers that I?m a tenacious individual who has an 
 		eagerness to learn at such a fast pace.
 	</p>
-	<p>
+	<h1 class="topic">AS A PERSON</h1>	
+	<p style="text-align:left">
+		It is not uncommon for one to experience an emotional crisis at
+		a relatively young age, especially when it does not feel like 
+		oneself can get past the magnitude of it all. I, myself, have 
+		fought past that and persevered, not only as computer science 
+		engineer, but as an individual. 
+				
 		Outside of the daily routine, I am currently working on a few side projects 
 		(including this portfolio), which will be coming soon, but feel free to ask 
 		me about them anyway. You can also catch me playing tutoring others in 

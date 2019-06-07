@@ -1,23 +1,23 @@
 $(document).ready(function(){
 	
+  $(".content").load("partials/home.html " + ".content");
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
 	
 	//jQuery AJAX load data from another web page.
 	$("button").click(function() {
 		$(".content").load("partials/"+ this.id+".html " + ".content");
-		
+	  	
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
 		$(".content").css("display", "none");		
 		$(".content").fadeIn(1000);
+		
 	});
-	
 });
 
 	//SLIDESHOW
-	/*
   var slideIndex = 1;
 	showDivs(slideIndex);
 	
@@ -38,19 +38,6 @@ $(document).ready(function(){
 	    $(x[i]).css("display", "none");		    
 	  }
 	  $(x[slideIndex-1]).fadeIn(1000);	
-	  */
-		var slideIndex = 0;
-		carousel(); 
-
-		function carousel() {
-		  var i;
-		  var x = $(".mySlides");
-		  for (i = 0; i < x.length; i++) {
-	    $(x[i]).css("display", "none");		    
-		  }
-		  slideIndex++;
-		  if (slideIndex > x.length) {slideIndex = 1} 
-	    $(x[slideIndex-1]).fadeIn(1000);	
-		  setTimeout(carousel, 2000); // Change image every 2 seconds
-		}	  	        	  
+	  
+	        	  
 	}	

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<title> Michael Phan </title>
 		
@@ -19,30 +19,35 @@
 		
 		<div id="canvas">
 				<div class="logo"> 
-					<h1 id="index"><a href="index.html"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></a></h1>
+					<h1 id="fullname"><a href="index.html"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></a></h1>
+					<h3>**** UNDER CONSTRUCTION ****</h3>
 				</div>
 				
 				<!-- TODO: REPLACE "NAVIGATION_BAR" CLASS AND USE BOOTSTRAP NAVBAR TO MAKE MOBILE RESPONSIVE -->
 				<div class="page_divider">
 				  <span id="header_list">
-				  	<button id="about">ABOUT</button>
+				  	<button id="home">HOME</button>				  	
 				  	<button id="experience">EXPERIENCE</button>
-				  	<button id="resume">RESUME</button>
+				  	<button id="skills">SKILLS</button>
+				  	<button id="about">ABOUT</button>				  	
 				  	<button id="contact">CONTACT</button>
 				  </span>
 				</div>
 				
 				<!-- SLIDESHOW -->
-				<div class="content">
-					<div class="w3-content w3-display-container">
-					  <img class="mySlides" src="img/water_fountain.jpg">
-					  <img class="mySlides" src="img/water_fountain_2.jpg">
-					  <img class="mySlides" src="img/Tree_Little_Italy.jpg">
-					  <img class="mySlides" src="img/la.jpg">					  
-					</div>
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>					
-				</div>		
+				<div class="content">				
+				</div>
+				
+				<div class="page_divider">
+				</div>				
+				
+				<div class="contact_logos">
+					<a href="#"><img src="img/IG_outline.png" alt="" height="30" width="30"></a>
+					<a href="#"><img src="img/facebook_outline.png" alt="" height="30" width="30"></a>
+					<a href="#"><img src="img/linkedin_outline.png" alt="" height="30" width="30"></a>				
+					<a href="#"><img src="img/gmail_outline.png" alt="" height="30" width="40"></a>
+					<a href="#"><img src="img/phone_outline.jpg" alt="" height="30" width="30"></a>
+	      </div>					
 		</div> 	<!-- END CANVAS TAG -->	
 
 		<!-- JS Sripts -->
