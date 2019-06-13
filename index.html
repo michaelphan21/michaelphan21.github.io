@@ -6,24 +6,49 @@
 		<!-- Required Meta Tags -->
 		<meta charset="UTF-8"> 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
 
 		<!-- CSS Style Sheets & Icon -->		
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	 	
-	 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Custom CSS -->			 	
 	</head>
 
 	<body>
 		
-		<div id="canvas">
-				<div class="logo"> 
+		<!-- NAV BAR -->
+			<nav class="navbar navbar-fixed-top" role="navigation">
+		  	<div class="container">
+		       <div class="navbar-header">
+			       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<h1 id="fullname"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></h1>
+			       </button>
+		       </div>
+
+		       <!-- Collect the nav links, forms, and other content for toggling -->
+		       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			       <ul class="nav navbar-nav">
+				       <li><button id="home">HOME</button></li>
+				       <li><button id="about">ABOUT</button></li>
+				       <li><button id="experience">EXPERIENCE</button></li>
+				       <li><button id="skills">SKILLS</button></li>  
+				       <li><button id="contact">CONTACT</button></li>
+			       </ul>    							  	                               
+		       </div>       							  	                             
+		    </div>
+		    
+				<div class="toggle_divider">
+				</div>	    
+		</nav>		
+		 <!-- NAV BAR END -->
+
+			<div class="canvas">
+				<div class="logo">
 					<h1 id="fullname"><a href="index.html"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></a></h1>
-					<h3>**** UNDER CONSTRUCTION ****</h3>
+									<h1>---UNDER CONSTRUCTION---</h1>
 				</div>
-				
-				<!-- TODO: REPLACE "NAVIGATION_BAR" CLASS AND USE BOOTSTRAP NAVBAR TO MAKE MOBILE RESPONSIVE -->
+								
 				<div class="page_divider">
 				  <span id="header_list">
 				  	<button id="home">HOME</button>
@@ -33,26 +58,27 @@
 				  	<button id="contact">CONTACT</button>
 				  </span>
 				</div>
-				
-				<!-- SLIDESHOW -->
+		
 				<div class="content">				
 				</div>
-				
+		
 				<div class="page_divider">
-				</div>				
-				
+				</div>		
+
 				<div class="contact_logos">
-					<a href="#"><img src="img/IG_outline.png" alt="" height="30" width="30"></a>
-					<a href="#"><img src="img/facebook_outline.png" alt="" height="30" width="30"></a>
-					<a href="#"><img src="img/linkedin_outline.png" alt="" height="30" width="30"></a>				
-					<a href="#"><img src="img/gmail_outline.png" alt="" height="30" width="40"></a>
-					<a href="#"><img src="img/phone_outline.jpg" alt="" height="30" width="30"></a>
-	      </div>					
-		</div> 	<!-- END CANVAS TAG -->	
+							<!-- TODO: FFIX CONTACT LOGOS -->	
+								<a href="https://www.google.com" target="_blank"><img src="img/IG_outline.png" alt="Instagram" width="30" height="30"></a>
+								<a href="https://www.facebook.com/michael.phan.94" target="_blank"><img src="img/facebook_outline.png" alt="Facebook" width="30" height="30"></a>
+								<a href="https://www.linkedin.com/in/michaelphan21" target="_blank"><img src="img/linkedin_outline.png" alt="LinkedIn" width="30" height="30"></a>				
+								<a href="#" target="_blank"><img src="img/gmail_outline.png" alt="Gmail" width="30" height="60"></a>
+								<a href="https://github.com/michaelphan21" target="_blank"><img src="img/github_outline.png" alt="GitHub" width="30" height="30"></a>								
+	
+				</div>		
+			</div> <!-- END CANVAS TAG -->	
 
 		<!-- JS Sripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script> 	
 		<script src="js/main.js"></script>	<!-- Custom Script -->
 	</body>
 

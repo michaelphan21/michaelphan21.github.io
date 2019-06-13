@@ -9,21 +9,25 @@ html, body {
   background-color: #FFFFFF;
 }
 
-#canvas, .logo, .nb, .page_divider {
+.navbar{
+	display:none;
+}
+
+.content, .logo, .nb, .page_divider, .contact_logos {
 	font-family: myFirstFont;
-	margin: 50px 200px 50px 200px;
+	margin: 50px 225px 50px 225px;
   text-align: center;			
 }
 
 .page_divider {
 	border-bottom: 2px solid black;	
-	height: 15px; 
+	height: 15px;
+	margin: 0 20% 0 20%; 
 }
 
 #header_list {
 	font-size: 25px; 
 	background-color: #FFFFFF; 
-	padding: 0 10px;
 }
 
 button {
@@ -58,15 +62,11 @@ button {
 }
 
 #left_arrow button {
-	margin: 0px 0 0 400px;
+	margin: auto 0 0 21%;
 }
 
 #right_arrow button {
-	margin: 0px 400px 0 0;
-}
-
-.content {
-	margin: 50px 125px 50px 125px;
+	margin: auto 21% 0 0;
 }
 
 p {
@@ -77,4 +77,83 @@ p {
 .topic {
 	text-align: left;
 	font-family: normal;	
+}
+
+img {
+	
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.logo, .nb, .page_divider{
+		display:none;	
+	}
+	
+	.contact_logos {
+		display:inline;
+	}
+	
+	.navbar {
+		font-family: myFirstFont;
+		display:block;
+	}
+	
+	.container, .navbar-header > button {
+		margin: auto;
+		width: 100%;
+		padding: 0 0 0 0;
+		text-align:center;
+	}
+	
+	.container {
+		background-color: white;	
+	}
+	
+	.toggle_divider {
+		border-bottom: 1px solid black;
+		margin: 0 47% 0 47%;		
+	}
+	
+	.content {
+		margin: 70px auto;
+		padding: auto;
+		width: 95%;
+		text-align:center;
+	}
+	
+	.canvas .page_divider {
+		display:none;
+	}
+
+	#header_list {
+		display:none;
+	}
+
+	#fullname {
+		font-size: 25px;
+	}
+
+	#left_arrow button {
+		margin: 3% 0 0 5%;
+	}
+
+	#right_arrow button {
+		margin: 3% 5% 0 0;
+	}
+
+	p {
+		font-family: sans-serif;
+		font-size: 15px;
+		text-align: center;		
+	}
+	
+	.topic {
+		text-align: center;
+		font-family: normal;
+		font-size: 22px;	
+	}
+	
+	.outline {
+		display:inline:
+	}
 }

@@ -1,21 +1,49 @@
 $(document).ready(function(){
 	
+	//page fade in
   $(".content").load("partials/home.html " + ".content");
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
 	
+	
+	//toggle divider visibility
+	$(".navbar-toggle").click(function() {
+		if ($(".collapse").is(":visible")) {
+			$(".toggle_divider").css("display", "block");
+		} else {
+			$(".toggle_divider").css("display", "none");
+		}		
+	});
+	
 	//jQuery AJAX load data from another web page.
-	$("button").click(function() {
-		$(".content").load("partials/"+ this.id+".html " + ".content");
-	  	
+	//mobile & desktop
+	$(".nav button, .page_divider button").click(function() {
+		$(".content").load("partials/"+ this.id+".html");
+		
+		$('.navbar-collapse').collapse('hide');
+		$(".toggle_divider").css("display", "block");
+
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
 		$(".content").css("display", "none");		
 		$(".content").fadeIn(1000);
-		
 	});
+		
 });
+
+/*
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+   document.body.style.backgroundColor = "pink";
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function */
 
 	//SLIDESHOW
   var slideIndex = 1;
