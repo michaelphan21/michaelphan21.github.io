@@ -1,5 +1,5 @@
-	<img style="display:none" src="img/Michael_Phan.jpg">
   <p class="topic">FUN FACTS ABOUT MYSELF</p>	
+	<img src="img/beach.jpg" class="img-responsive">  
 	<p class="paragraph"> 
 		My favorite color is green. I used to compete in spicy food challenges.
 		I sprained my ankle at least five times playing basketball. I recently
@@ -7,6 +7,7 @@
 	</p>
   <hr>
   <p class="topic">AS A SOFTWARE DEVELOPER</p>		
+  <img src="img/grad_pic.jpg" class="img-responsive">    
 	<p class="paragraph">
 		One of my passions is to be able to help those who?ve gone through
 		a similar experience, where resources in the community were limited 
@@ -27,8 +28,8 @@
 		eagerness to learn at such a fast pace.
 	</p>
   <hr>
-	
 	<p class="topic">AS A PERSON</p>	
+	<img src="img/cedar_creek.jpg" class="img-responsive">  		
 	<p class="paragraph">
 		It is not uncommon for one to experience an emotional crisis at
 		a relatively young age, especially when it does not feel like 

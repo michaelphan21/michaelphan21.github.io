@@ -4,9 +4,8 @@ TODO:
  Layout:
 	Create a contact sheet
 	 -Maybe use a google email API
-	Incorporate Bootstrap for mobile responsiveness
-	Incorporate navbar hamburger menu
+	Create mobile responsiveness
  Misc:
   Update ALL sections
-  Look for a better font
+
 
