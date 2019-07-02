@@ -1,10 +1,9 @@
 $(document).ready(function(){
 	
 	//page fade in
-  $(".content").load("partials/home.html " + ".content");
+  $(".content").load("partials/home.html");
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
-	
 	
 	//toggle divider visibility
 	$(".navbar-toggle").click(function() {
@@ -15,10 +14,11 @@ $(document).ready(function(){
 		}		
 	});
 	
-	
+	//hide navbar after click
 	$(window).click(function() {
 		$('.navbar-collapse').collapse('hide');
 	});
+	
 	//jQuery AJAX load data from another web page.
 	//mobile & desktop
 	$(".nav button, .page_divider button").click(function() {
@@ -32,8 +32,9 @@ $(document).ready(function(){
 		
 		$(".content").css("display", "none");		
 		$(".content").fadeIn(1000);
-	});
 		
+		
+	});
 });
 
 /*
@@ -48,6 +49,8 @@ function myFunction(x) {
 var x = window.matchMedia("(max-width: 700px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function */
+
+	$(".content").html($(".content").html());
 
 	//SLIDESHOW
   var slideIndex = 1;

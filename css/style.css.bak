@@ -3,31 +3,65 @@
   src: url(fonts/aqua.ttf);
 }
 
-html, body {
+html {
   width: 100%;
   height:100%;
 	margin: 0; 
 	padding: 0;   
 }
 
+body {
+	/* or 2vw */
+	padding: 50px 0 0 0;
+ /*  font-size: calc(12px + (60 - 12) * ((100vw - 300px) / (2000 - 300))); */
+ /* line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(2000 - 300))); */ 
+}
+
 .navbar{
 	display:none;
 }
 
-.content, .logo, .page_divider {
+.content {
+	border: 1px solid black;
 	font-family: myFirstFont;
-	margin: 50px 225px 50px 225px;
+	margin: 2% 25% 2% 25%;
  	text-align: center;			
 }
 
+.logo
+{
+	margin: 0 0 2% 0; 
+}
+
+#fullname {
+	font-family: myFirstFont;
+ 	text-align: center;	
+	font-size: 3.2vw;
+}
+#fullname a {
+  text-decoration:none;
+}
+
+#firstname {
+	color: black;
+}
+
+#lastname {
+	color: red;
+}
+
 .page_divider {
+	font-family: myFirstFont;
 	border-bottom: 2px solid black;	
-	height: 15px;
+	height: 18px;
 	margin: 0 20% 0 20%; 
+ 	text-align: center;			
+	
 }
 
 #header_list {
-	font-size: 25px; 
+	font-size: 1.5vw;
+	padding: 0 2% 0 2%; 	
 	background-color: #FFFFFF; 
 }
 
@@ -48,40 +82,22 @@ button {
 	display:none;
 }	
 
-#fullname {
-	font-family: myFirstFont;
- 	text-align: center;	
-	font-size: 60px;
-}
-#fullname a {
-  text-decoration:none;
-  color: inherit;	
-}
-
-#firstname {
-	color: black;
-}
-
-#lastname {
-	color: red;
-}
-
 #left_arrow button {
-	margin: auto 0 0 5%;
+	margin: auto 0 0 0;
 }
 
 #right_arrow button {
-	margin: auto 5% 0 0;
+	margin: auto 0 0 0;
 }
 
 p {
 	font-family: sans-serif;
-	font-size: 15px;
+	font-size: 0.75vw;
 }
 
 .topic {
 	text-align: left;
-	font-size: 35px;
+	font-size: 2vw; /* 35 */
 	font-family: normal;	
 }
 
@@ -91,22 +107,21 @@ p {
 	text-align:center;
 }
 
-.row{
-	text-align:left;
+.section {
+	margin: 0 0 25px 0;
+	height: 100%;
+	text-align: center;
 }
 
-.row.contact{
-	text-align:center;	
-}
-
-.col-xs-12.col-sm-12.col-md-4.col-xl-4 {
-	height:450px;
-	border: 1px solid black;
-	text-align:center;
+.section > p {
+	font-size: 20px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	body{
+		padding: 70px 0 0 0;
+	}
 	.logo, .page_divider{
 		display:none;	
 	}
@@ -117,7 +132,7 @@ p {
 	}
 	
 	.container, .navbar-header > button {
-		margin: auto;
+		margin: 0 auto;
 		width: 100%;
 		padding: 0 0 0 0;
 		text-align:center;
@@ -133,9 +148,7 @@ p {
 	}
 	
 	.content {
-		margin: 70px auto;
-		padding: auto;
-		width: 95%;
+		margin: 0 auto;
 		text-align:center;
 	}
 	
@@ -171,14 +184,13 @@ p {
 		font-family: normal;
 		font-size: 22px;	
 	}
-	
-	.outline {
-		display:inline:
-	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {  
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	body{
+		padding: 70px 0 0 0;
+	}	 
 	.logo, .page_divider{
 		display:none;	
 	}
@@ -205,7 +217,7 @@ p {
 	}
 	
 	.content {
-		margin: 70px auto;
+		margin: auto;
 		padding: auto;
 		width: 95%;
 		text-align:center;
@@ -251,216 +263,12 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {  
-	.logo, .page_divider{
-		display:none !important;	
-	}
-
-	.navbar {
-		font-family: myFirstFont;
-		display:block !important;
-	}
-	
-	.container, .navbar-header > button {
-		margin: auto;
-		width: 100%;
-		padding: 0 0 0 0;
-		text-align:center;
-	}
-	
-	.container {
-		background-color: white;	
-	}
-	
-	.toggle_divider {
-		border-bottom: 1px solid black;
-		margin: 0 47% 0 47%;		
-	}
-	
-	.content {
-		margin: 70px auto;
-		padding: auto;
-		width: 95%;
-		text-align:center;
-	}
-	
-	.canvas .page_divider {
-		display:none;
-	}
-
-	#header_list {
-		display:none;
-	}
-
-	#fullname {
-		margin: 15px 0 0 0;	
-		font-size: 25px;
-	}
-
-	#left_arrow button {
-		margin: auto 0 0 auto;
-	}
-
-	#right_arrow button {
-		margin: auto auto 0 0;
-	}
-
-	p {
-		font-family: sans-serif;
-		font-size: 15px;
-		text-align: center;		
-	}
-	
-	.topic {
-		text-align: center;
-		font-family: normal;
-		font-size: 22px;	
-	}
-	
-	.outline {
-		display:inline:
-	}
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {  
-	.logo, .page_divider{
-		display:none !important;	
-	}
-
-	.navbar {
-		font-family: myFirstFont;
-		display:block !important;
-	}
-	
-	.container, .navbar-header > button {
-		margin: auto;
-		width: 100%;
-		padding: 0 0 0 0;
-		text-align:center;
-	}
-	
-	.container {
-		background-color: white;	
-	}
-	
-	.toggle_divider {
-		border-bottom: 1px solid black;
-		margin: 0 47% 0 47%;		
-	}
-	
-	.content {
-		margin: 70px auto;
-		padding: auto;
-		width: 95%;
-		text-align:center;
-	}
-	
-	.canvas .page_divider {
-		display:none;
-	}
-
-	#header_list {
-		display:none;
-	}
-
-	#fullname {
-		margin: 15px 0 0 0;	
-		font-size: 25px;
-	}
-
-	#left_arrow button {
-		margin: auto 0 0 auto;
-	}
-
-	#right_arrow button {
-		margin: auto auto 0 0;
-	}
-
-	p {
-		font-family: sans-serif;
-		font-size: 15px;
-		text-align: center;		
-	}
-	
-	.topic {
-		text-align: center;
-		font-family: normal;
-		font-size: 22px;	
-	}
-	
-	.outline {
-		display:inline:
-	}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-	.logo, .page_divider{
-		display:none !important;	
-	}
-
-	.navbar {
-		font-family: myFirstFont;
-		display:block !important;
-	}
-	
-	.container, .navbar-header > button {
-		margin: auto;
-		width: 100%;
-		padding: 0 0 0 0;
-		text-align:center;
-	}
-	
-	.container {
-		background-color: white;	
-	}
-	
-	.toggle_divider {
-		border-bottom: 1px solid black;
-		margin: 0 47% 0 47%;		
-	}
-	
-	.content {
-		margin: 70px auto;
-		padding: auto;
-		width: 95%;
-		text-align:center;
-	}
-	
-	.canvas .page_divider {
-		display:none;
-	}
-
-	#header_list {
-		display:none;
-	}
-
-	#fullname {
-		margin: 15px 0 0 0;	
-		font-size: 25px;
-	}
-
-	#left_arrow button {
-		margin: auto 0 0 auto;
-	}
-
-	#right_arrow button {
-		margin: auto auto 0 0;
-	}
-
-	p {
-		font-family: sans-serif;
-		font-size: 15px;
-		text-align: center;		
-	}
-	
-	.topic {
-		text-align: center;
-		font-family: normal;
-		font-size: 22px;	
-	}
-	
-	.outline {
-		display:inline:
-	}
 }

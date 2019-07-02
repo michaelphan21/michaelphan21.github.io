@@ -1,19 +1,22 @@
 Michael Phan's Portfolio.
 
 TODO:
- Layout:
-  Change navbar font (aesthetics)
-  Change logo color to reflect navbar name
-  Fix the scaling of each tab section
-  Fix profile image and align text
-  Fix contact image to align with information
-	create contact sheet
- Misc:
-  Update Experience Section
-  Update About me Section
- Optional Add-On:
-  Allow option for client to download resume and github link
-  Add another section?(What section?)
-  Look for a better font
+	Fix arrows on (medium+) mobile layout
+	Fix content on desktop page to be contained
+	Fix shifting (due to padding) when clicking tabs
+	Fix other page layouts
+	Fix footer to always be at bottom of page	
+	Add padding to sides of content
+	Add timer for picture slide show for home page
+	Add wrap around to images with text in ABOUT section (maybe add padding)
+	
+	
+	Add mobile responsiveness to remaining devices
+	Add actual text to sections
+	Add better photos to about section
+	Purchsae DNS and add google analytics to pages
+	
+	
+	
 
-Incorporate AJAX and PHP for contact page.
+

@@ -1,45 +1,25 @@
-  <p class="topic">FUN FACTS ABOUT MYSELF</p>	
-	<img src="img/beach.jpg" class="img-responsive">  
+<div>
+	<p class="topic">FUN FACTS ABOUT MYSELF</p>		
+	<img src="img/isandtour.jpg" class="img-responsive left"> 
 	<p class="paragraph"> 
-		My favorite color is green. I used to compete in spicy food challenges.
-		I sprained my ankle at least five times playing basketball. I recently
-		started hiking, doing Yoga, and running 5k marathons.
+		My favorite colors are green and blue. I used to compete in local spicy food challenges until I got gastritis. I sprained my right ankle 5 times from playing basketball, and I'm still playing. My favorite snack is XXTRA hot Cheetos (what a surprise). I can make an extremely loud clucking noise with my tongue. My mantra is 'Love What You Hate,' ask me about it!
 	</p>
-  <hr>
-  <p class="topic">AS A SOFTWARE DEVELOPER</p>		
-  <img src="img/grad_pic.jpg" class="img-responsive">    
+	<hr>
+</div>
+<div>
+	<p class="topic">AS A SOFTWARE DEVELOPER</p>		
+	<img src="img/code.jpg" class="img-responsive right">    
 	<p class="paragraph">
-		One of my passions is to be able to help those who?ve gone through
-		a similar experience, where resources in the community were limited 
-		and the help was hardly found. I know that no single approach to 
-		every person in this community will always result in the best outcome,
-		which is why I?ve been trained to empathize with others and help them 
-		the way that they want to be helped. Ultimately, my greatest goal is 
-		to continuously be able to develop software applications that can be 
-		the most beneficial; whether that would be building on an existing project 
-		or completely starting from scratch, as long as it is changing someone?s 
-		life around the world.
-		
-		My educational background includes graduating from the prestigious 
-		University of California, San Diego in 2016 with a bachelor?s degree 
-		in Computer Science and Engineering. Ever since, I?ve been working and 
-		building on both my strengths and weaknesses. I?ve been told by my 
-		colleagues and co-workers that I?m a tenacious individual who has an 
-		eagerness to learn at such a fast pace.
+		My path to becoming a software developer was far from being simple and easy. Back in 2011, I knew that I was a tech-savvy individual with a creative mindset, but I wasn't sure where and how I wanted to utilize my skills until I had met a friend in my early college years. I was exposed to the world of computer science and the limitless opportunities it had, and knew this would be the perfect place for me. I was given the chance to experience multiple realms of programming in both inside and outside of the work force. These areas of expertise include web development (both client-side and server-side), mobile gaming applications, database development & reporting, and business applications dealing large scale batches and transaction processing. 
+		Through the long, yet guided journey, it has proudly led me to obtain a Bachelor's Degree in Computer Science & Engineering at the prestigious college of University of California, San Diego in September of 2016. To say, I've had the most pleasure in this learned experience, as it has allowed me to fully utilize my technical skills and creativity. It has also built me to be a more well-rounded person by making me more attentive, detail-oriented and organized.
 	</p>
-  <hr>
+	<hr>
+</div>
+<div>
 	<p class="topic">AS A PERSON</p>	
-	<img src="img/cedar_creek.jpg" class="img-responsive">  		
+	<img src="img/cedar_creek.jpg" class="img-responsive left">  		
 	<p class="paragraph">
-		It is not uncommon for one to experience an emotional crisis at
-		a relatively young age, especially when it does not feel like 
-		oneself can get past the magnitude of it all. I, myself, have 
-		fought past that and persevered, not only as computer science 
-		engineer, but as an individual. 
-				
-		Outside of the daily routine, I am currently working on a few side projects 
-		(including this portfolio), which will be coming soon, but feel free to ask 
-		me about them anyway. You can also catch me playing tutoring others in 
-		CS, playing basketball outdoors, or even ruining my relationship with my 
-		companions through a game of Catan.
+		Growing up, it has always been in my nature to give back to my community and help anyone that needed it. I am one, like many others, that worked with limited resources to help me succeed both inside and outside of school. However, through hard work and self-discipline, I persevered through the toughest times and it is what allows me continue my adventure. Today, I spend half of my time helping out others; whether that'd be lending a car to a friend to help relocate to offering general life advice and free tutoring services to anyone that has the slightest interest in computer science.   
+		The other half of my time includes staring at my phone screen or TV screen if I'm not staring at my computer screen. All jokes aside, outside my daily routine includes discovering new activities to participate in. Recently, I've taken the time to explore the wilderness in my local area, participate in running marathons, Yoga, and learning Spanish all over again. I also enjoy playing the game of basketball (Lakers fan), badminton, or ruining my relationship with my companions through Catan. 
 	</p>
+</div>
