@@ -47,16 +47,18 @@
 
 			<div class="logo">
 				<p id="fullname"><a href="index.html"><span id="firstname">MICHAEL</span><span id="lastname"> PHAN</span></a><p>
+				<h2 style="text-align:center">------UNDER CONSTRUCTION------</h2>
+					
 			</div>
 							
 			<div class="page_divider">
-			  <div id="header_list">
+			  <span id="header_list">
 			  	<button id="home">HOME</button>
 			  	<button id="about">ABOUT</button>
 			  	<button id="portfolio">PORTFOLIO</button>				  					  					  					  	
 			  	<button id="resume">RESUME</button>
 			  	<button id="contact">CONTACT</button>
-			  </div>
+			  </span>
 			</div>
 	
 			<div class="content">				

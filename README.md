@@ -2,18 +2,20 @@ Michael Phan's Portfolio.
 
 TODO:
 	Fix arrows on (medium+) mobile layout
-	Fix content on desktop page to be contained
 	Fix shifting (due to padding) when clicking tabs
 	Fix other page layouts
 	Fix footer to always be at bottom of page	
-	Add padding to sides of content
 	Add timer for picture slide show for home page
-	Add wrap around to images with text in ABOUT section (maybe add padding)
+	make page divider move as well when page shrinks
 	
-	
-	Add mobile responsiveness to remaining devices
+	put a limit on font sizing (when minimizing and maximizing)
+	Center everything in mobile version.
 	Add actual text to sections
 	Purchsae DNS and add google analytics to pages
+	clean css file
+	clean js file
+	make images responsive
+	make images bigger on abt section but limit size
 	
 	
 	

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	//page fade in
-  $(".information").load("partials/home.html");
+  $(".content").load("partials/home.html");
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
 	
@@ -22,7 +22,7 @@ $(document).ready(function(){
 	//jQuery AJAX load data from another web page.
 	//mobile & desktop
 	$(".nav button, .page_divider button").click(function() {
-		$(".information").load("partials/"+ this.id+".html " + ".content");
+		$(".content").load("partials/"+ this.id+".html");
 		
 		$('.navbar-collapse').collapse('hide');
 		$(".toggle_divider").css("display", "block");
@@ -30,8 +30,9 @@ $(document).ready(function(){
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
-		$(".information").css("display", "none");		
-		$(".information").fadeIn(1000);		
+		$(".content").css("display", "none");		
+		$(".content").fadeIn(1000);
+		
 		
 	});
 });
