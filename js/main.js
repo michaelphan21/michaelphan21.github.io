@@ -32,7 +32,7 @@ $(document).ready(function(){
 	  gtag('event', 'click', {
 	    'event_category': 'outbound',
 	    'event_label': $(this).attr('href'),
-	    'transport_type': 'beacon'
+	    'transport_type': 'beacon',
    	  'event_callback': function(){document.location = $(this).attr('href');}   
 	  });
 	  alert($(this).attr('href'));
