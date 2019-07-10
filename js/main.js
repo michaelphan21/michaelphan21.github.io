@@ -16,7 +16,6 @@ $(document).ready(function(){
 		gtag('event', $(this).val(), {
 		  'event_category': 'button'
 		});		
-		alert($(this).val());
 				
 		$(".content").load("partials/"+ this.id+".html");
 		
