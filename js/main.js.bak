@@ -35,7 +35,10 @@ $(document).ready(function(){
 	    'transport_type': 'beacon'
    	  'event_callback': function(){document.location = $(this).attr('href');}   
 	  });
+	  
+	  alert($(this).attr('href'));
 	});
+	
 	
 	//set minimum font size when screen is responsive
 	$("*").each( function () {
