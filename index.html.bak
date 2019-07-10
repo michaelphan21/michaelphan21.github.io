@@ -50,11 +50,11 @@
 							
 			<div class="page_divider">
 			  <span id="header_list">
-			  	<button id="home" on>HOME</button>
-			  	<button id="about">ABOUT</button>
-			  	<button id="portfolio">PORTFOLIO</button>				  					  					  					  	
-			  	<button id="resume">RESUME</button>
-			  	<button id="contact">CONTACT</button>
+			  	<button id="home" value="home">HOME</button>
+			  	<button id="about" value="about">ABOUT</button>
+			  	<button id="portfolio" value="portfolio">PORTFOLIO</button>				  					  					  					  	
+			  	<button id="resume" value="resume">RESUME</button>
+			  	<button id="contact" value="contact">CONTACT</button>
 			  </span>
 			</div>
 	

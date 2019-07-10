@@ -13,8 +13,11 @@ $(document).ready(function(){
 	//jQuery AJAX load data from another web page.
 	//mobile & desktop
 	$(".nav button, .page_divider button").click(function() {
-		gtag('event', $(this).val(), {
-		  'event_category': 'button'
+		
+		//ga track button clicks
+		gtag('event', 'click', {
+		  'event_category': 'button',
+		  'event_label': $(this).val()
 		});		
 				
 		$(".content").load("partials/"+ this.id+".html");
@@ -28,13 +31,13 @@ $(document).ready(function(){
 		$(".content").fadeIn(1000);		
 	});
 	
+	//ga track outbound link clicks
 	$("a").click(function() {
 	  gtag('event', 'click', {
 	    'event_category': 'outbound',
 	    'event_label': $(this).attr('href'),
 	    'transport_type': 'beacon'
 	  });
-	  alert($(this).attr('href'));
 	});
 	
 	
