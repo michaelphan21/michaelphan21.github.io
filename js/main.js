@@ -29,9 +29,10 @@ $(document).ready(function(){
 	});
 	
 	$("a").click(function() {
-	  ga('send', 'event', 'outbound', 'click', $(this).attr('href'), {
-	    'transport': 'beacon',
-	    'hitCallback': function(){document.location = $(this).attr('href');}
+	  gtag('event', 'click', {
+	    'event_category': 'outbound',
+	    'event_label': url,
+	    'transport_type': 'beacon'
 	  });
 	});
 	
