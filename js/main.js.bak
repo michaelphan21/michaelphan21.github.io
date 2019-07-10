@@ -13,10 +13,6 @@ $(document).ready(function(){
 	//jQuery AJAX load data from another web page.
 	//mobile & desktop
 	$(".nav button, .page_divider button").click(function() {
-		gtag('event', $(this).val(), {
-		  'event_category': 'button'
-		});		
-				
 		$(".content").load("partials/"+ this.id+".html");
 		
 		$('.navbar-collapse').collapse('hide');
