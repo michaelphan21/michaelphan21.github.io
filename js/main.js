@@ -5,15 +5,6 @@ $(document).ready(function(){
 	$("body").css("display", "none");
 	$("body").fadeIn(2000);
 	
-	//toggle divider visibility
-	$(".navbar-toggle").click(function() {
-		if ($(".collapse").is(":visible")) {
-			$(".toggle_divider").css("display", "block");
-		} else {
-			$(".toggle_divider").css("display", "none");
-		}		
-	});
-	
 	//hide navbar after click
 	$(window).click(function() {
 		$('.navbar-collapse').collapse('hide');
@@ -25,16 +16,25 @@ $(document).ready(function(){
 		$(".content").load("partials/"+ this.id+".html");
 		
 		$('.navbar-collapse').collapse('hide');
-		$(".toggle_divider").css("display", "block");
 
 		$("button.active").removeClass("active");
 		$(this).closest("button").addClass("active");
 		
 		$(".content").css("display", "none");		
-		$(".content").fadeIn(1000);
-		
-		
+		$(".content").fadeIn(1000);		
 	});
+	
+	
+	//set minimum font size when screen is responsive
+	$("*").each( function () {
+	    var $this = $(this);
+	    if (parseInt($this.css("fontSize")) < 12) {
+	        $this.css({ "font-size": "12px" });   
+	    }
+	});	
+	
+	
+	
 });
 
 /*

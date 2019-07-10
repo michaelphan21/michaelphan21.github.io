@@ -10,8 +10,8 @@ TODO:
 	
 	put a limit on font sizing (when minimizing and maximizing)
 	Center everything in mobile version.
-	Add actual text to sections
-	Purchsae DNS and add google analytics to pages
+	Add actual text to sections (1/2 done)
+	add google analytics to pages
 	clean css file
 	clean js file
 	make images responsive
