@@ -16,7 +16,6 @@ $(document).ready(function(){
 		gtag('event', $(this).val(), {
 		  'event_category': 'button'
 		});		
-		alert($(this).val());
 				
 		$(".content").load("partials/"+ this.id+".html");
 		
@@ -30,6 +29,16 @@ $(document).ready(function(){
 	});
 	
 	
+	$("a").click(function() {
+		function handleOutboundLinkClicks(event) {
+		  ga('send', 'event', {
+		    eventCategory: 'Outbound Link',
+		    eventAction: 'click',
+		    eventLabel: event.target.href
+		  });
+		}			
+	});
+	
 	//set minimum font size when screen is responsive
 	$("*").each( function () {
 	    var $this = $(this);
@@ -38,7 +47,7 @@ $(document).ready(function(){
 	    }
 	});	
 	
-	
+
 	
 });
 
