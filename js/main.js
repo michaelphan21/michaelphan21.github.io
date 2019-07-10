@@ -28,13 +28,17 @@ $(document).ready(function(){
 		$(".content").fadeIn(1000);		
 	});
 	
-	$("a").click(function() {
+	$("a").click(function(event) {
 	  gtag('event', 'click', {
 	    'event_category': 'outbound',
-	    'event_label': url,
+	    'event_label': $(this).attr('href'),
 	    'transport_type': 'beacon'
+   	  'event_callback': function(){document.location = $(this).attr('href');}   
 	  });
+	  
+	  alert($(this).attr('href'));
 	});
+	
 	
 	//set minimum font size when screen is responsive
 	$("*").each( function () {
