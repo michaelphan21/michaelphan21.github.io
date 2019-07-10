@@ -99,7 +99,7 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-143619964-1');
-		  gtag('send', 'pageview', 'index');
+		  ga('send', 'pageview', 'index');
 		  
 		</script>
 		
