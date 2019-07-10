@@ -28,13 +28,11 @@ $(document).ready(function(){
 		$(".content").fadeIn(1000);		
 	});
 	
-	
 	$("a").click(function() {
-		  ga('send', 'event', {
-		    eventCategory: 'Outbound Link',
-		    eventAction: 'click',
-		    eventLabel: this.target.href
-		  });
+	  ga('send', 'event', 'outbound', 'click', $(this).attr('href'), {
+	    'transport': 'beacon',
+	    'hitCallback': function(){document.location = $(this).attr('href');}
+	  });
 	});
 	
 	//set minimum font size when screen is responsive

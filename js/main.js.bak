@@ -30,13 +30,10 @@ $(document).ready(function(){
 	
 	
 	$("a").click(function() {
-		function handleOutboundLinkClicks(event) {
-		  ga('send', 'event', {
-		    eventCategory: 'Outbound Link',
-		    eventAction: 'click',
-		    eventLabel: event.target.href
-		  });
-		}			
+	  ga('send', 'event', 'outbound', 'click', $(this).attr('href'), {
+	    'transport': 'beacon',
+	    'hitCallback': function(){document.location = $(this).attr('href');}
+	  });
 	});
 	
 	//set minimum font size when screen is responsive
